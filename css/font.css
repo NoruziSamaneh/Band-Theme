@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "iranyekan";
+  font-style: normal;
+  font-weight: normal;
+  src: url('../font/iranyekan/eot/iranyekanwebregularfanum.eot');
+  src: url('../font/iranyekan/eot/iranyekanwebregularfanum.eot?#iefix') format('embedded-opentype'),
+  url('../font/iranyekan/woff/iranyekanwebregularfanum.woff') format('woff'),
+  url('../font/iranyekan/ttf/iranyekanwebregularfanum.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "iranyekan";
+  font-style: normal;
+  font-weight: bold;
+  src: url('../font/iranyekan/eot/iranyekanwebboldfanum.eot');
+  src: url('../font/iranyekan/eot/iranyekanwebboldfanum.eot?#iefix') format('embedded-opentype'),
+  url('../font/iranyekan/woff/iranyekanwebboldfanum.woff') format('woff'),
+  url('../font/iranyekan/ttf/iranyekanwebboldfanum.ttf') format('truetype');
+}
+
+body {
+  font-family: "iranyekan";
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
