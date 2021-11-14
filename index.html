@@ -241,11 +241,50 @@
     <!-- modal box for buy ticket -->
   </section>
   <!-- end tour section -->
+  <!-- start contact section -->
+  <section id="contact">
+    <div class="container-md">
+      <h2 class="contact-title">تماس با ما</h2>
+      <p class="text-muted text-center sub-contact-title">نظرات خود را با ما در میان بگذارید.</p>
+      <div class="row form-contact">
+        <div class="col-md-6 mb-3 form-contact-info">
+          <i class="fas fa-map-marker-alt me-2"></i>
+          شیکاگو، ایالات متحده آمریکا
+          <br>
+          <i class="fas fa-phone me-2"></i>
+          تلفن: 00151515
+          <br>
+          <i class="fas fa-envelope me-2"></i>
+          پست الکترونیک: mail@mail.com
+          <br>
+        </div>
+        <div class="col-md-6">
+          <form action="#" class="needs-validation myform-contact" novalidate target="_blank">
+            <div class="row mb-2">
+              <div class="col-md-6">
+                <input type="text" placeholder="نام" class="form-control firstinput" required>
+                <div class="invalid-feedback">لطفا نام خود را وارد نمایید</div>
+              </div>
+              <div class="col-md-6">
+                <input type="email" placeholder="پست الکترونیک" class="form-control" required>
+                <div class="invalid-feedback">لطفا ایمیل خود را وارد نمایید</div>
+              </div>
+            </div>
+            <textarea name="message" id="txtmessage" cols="5" rows="1" placeholder="پیام خود را بگذارید" class="form-control" required></textarea>
+            <div class="invalid-feedback">لطفا پیام خود را وارد نمایید</div>
+            <button type="submit" class="btn mt-3 mb-3">ارسال</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
 
   <script src="libraries/jquery-3.6.0.min.js"></script>
   <script src="libraries/bootstrap-5.0.0-beta3-dist/js/bootstrap.bundle.min.js"></script>
   <script src="libraries/slick-1.8.1/slick/slick.min.js"></script>
   <script src="js/carousel.js"></script>
   <script src="js/modal.js"></script>
+  <script src="js/validation.js"></script>
 </body>
 </html>
