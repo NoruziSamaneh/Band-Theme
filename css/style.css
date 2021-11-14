@@ -92,6 +92,7 @@
   }
 }
 /* end navbar section style */
+
 /* start slider section style */
 #mycrousel {
   margin-top: 55px;
@@ -142,6 +143,7 @@
   }
 }
 /* end slider section style */
+
 /* start band section style */
 #band {
   max-width: 800px;
@@ -176,3 +178,225 @@
   font-size: 15px;
 }
 /* end band section style */
+
+/* start tour section style */
+#tour {
+  background-color: black;
+  color: #fff;
+}
+
+#tour .container-md {
+  max-width: 800px;
+  padding: 64px 16px;
+}
+
+.tour-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.sub-tour {
+  text-align: center;
+  font-size: 15px;
+}
+
+.tour-reservelist ul {
+  color: #757575;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tour-reservelist ul li {
+  border-bottom: 1px solid #ddd;
+  padding: 8px 16px;
+}
+
+.badge {
+  background-color: #f44336;
+  margin-right: 16px;
+  border-radius: unset;
+  font-size: 15px;
+}
+
+.tour-reservelist ul:last-child span.last-tour {
+  border-radius: 50%;
+  background-color: black;
+  color: #fff;
+  float: left;
+  margin-left: 16px;
+}
+
+.tour-card {
+  padding: 32px 0;
+}
+
+.tour-card .row .col-md-4 {
+  margin-bottom: 16px;
+}
+
+.tour-card .row .col-md-4 .card .card-img-top {
+  object-fit: cover;
+}
+
+.tour-card .row .col-md-4 .card .card-img-top:hover {
+  opacity: 0.60;
+}
+
+.card-body-txt {
+  color: #000;
+  background-color: #fff;
+  padding: 0.01em 16px;
+}
+
+.card-body-txt h5 {
+  font-weight: bold;
+}
+
+.card-body-txt p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.ticketmodal {
+  margin-bottom: 16px;
+  border: unset;
+  border-radius: unset
+}
+
+.ticketmodal:hover {
+  color: black;
+  background-color: #ccc;
+}
+
+#main-modal-box {
+  display: none;
+  z-index: 3;
+  padding-top: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-box {
+  position: relative;
+  animation: animatetop 0.4s ease 0s 1 normal none;
+  animation-play-state: running;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+  margin: auto;
+  width: 900px;
+  background-color: #fff;
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.modal-box header {
+  color: #fff;
+  background-color: #009688;
+  padding: 32px 0;
+  text-align: center;
+  position: relative;
+}
+
+.close-item {
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 8px 16px;
+}
+
+.close-item:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+.close-item ~ h2 {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.content-modal {
+  padding: 0.01em 16px;
+}
+
+.form-modal-box {
+  color: #000;
+}
+
+.form-control {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.form-control:focus {
+  border-color: #000;
+  box-shadow: unset;
+}
+
+input::placeholder {
+  text-align: right;
+}
+
+.btn-modal {
+  color: #fff;
+  background-color: #009688;
+  padding: 16px 0;
+  margin: 16px 0;
+  width: 100%;
+}
+
+.form-modal-box input, .form-modal-box button {
+  border-radius: unset;
+}
+
+.btn-modal:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+.foot-modal-form {
+  color: #000;
+}
+
+.foot-modal-form button {
+  color: #fff;
+  background-color: #f44336;
+  padding: 8px 16px;
+  border-radius: unset;
+}
+
+.foot-modal-form button:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+@media (max-width:767.98px) {
+  #main-modal-box {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width:768px) {
+  .modal-box {
+    margin: 0 10px;
+    width: auto;
+  }
+}
+/* end tour section style */
