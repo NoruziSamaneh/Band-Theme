@@ -469,3 +469,11 @@ input::placeholder {
   height: 100vh;
 }
 /* end php contact style */
+/* start map location style */
+.location-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: grayscale(50%);
+}
+/* end map location style */
