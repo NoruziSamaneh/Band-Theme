@@ -477,3 +477,25 @@ input::placeholder {
   filter: grayscale(50%);
 }
 /* end map location style */
+/* start footer style */
+#footer footer {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 64px 16px;
+  font-size: 24px;
+}
+
+#footer p {
+  font-size: 15px;
+}
+
+#footer a {
+  font-family: sans-serif;
+  text-decoration: underline;
+  color: #000;
+}
+
+#footer i:hover {
+  opacity: 0.60;
+}
+/* end footer style */
