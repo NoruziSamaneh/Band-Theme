@@ -259,18 +259,19 @@
           <br>
         </div>
         <div class="col-md-6">
-          <form action="#" class="needs-validation myform-contact" novalidate target="_blank">
+          <form action="contact.php" class="needs-validation myform-contact" novalidate target="_blank" method="post">
             <div class="row mb-2">
               <div class="col-md-6">
-                <input type="text" placeholder="نام" class="form-control firstinput" required>
+                <input type="text" placeholder="نام" class="form-control firstinput" name="username" required>
                 <div class="invalid-feedback">لطفا نام خود را وارد نمایید</div>
               </div>
               <div class="col-md-6">
-                <input type="email" placeholder="پست الکترونیک" class="form-control" required>
+                <input type="email" placeholder="پست الکترونیک" class="form-control" name="email" required>
                 <div class="invalid-feedback">لطفا ایمیل خود را وارد نمایید</div>
               </div>
             </div>
-            <textarea name="message" id="txtmessage" cols="5" rows="1" placeholder="پیام خود را بگذارید" class="form-control" required></textarea>
+            <textarea name="message" id="txtmessage" cols="5" rows="1" placeholder="پیام خود را بگذارید" 
+             class="form-control"></textarea>
             <div class="invalid-feedback">لطفا پیام خود را وارد نمایید</div>
             <button type="submit" class="btn mt-3 mb-3">ارسال</button>
           </form>

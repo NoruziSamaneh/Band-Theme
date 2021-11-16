@@ -445,3 +445,27 @@ input::placeholder {
   }
 }
 /* end contact section style */
+/* start php contact style */
+.success i {
+  color: #fff;
+  font-size: 150px;
+}
+
+.main-success {
+  background-color: black;  
+  width: 60%;
+}
+
+.success-message {
+  text-align: center;
+  color: #fff;
+}
+
+.success-message p strong {
+  font-size: 1.5rem;
+}
+
+#main-php {
+  height: 100vh;
+}
+/* end php contact style */
